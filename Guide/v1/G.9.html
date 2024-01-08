@@ -1,0 +1,215 @@
+<!doctype HTML>
+<html lang="ru">
+	<head>
+		<title>
+			Учебник по HTML5
+		</title>
+		<meta charset="utf-8">
+		<meta name="robots" content="index, follow">
+		<link rel="stylesheet" type="text/css" href="css/global.css">
+		<script src="js/result-fix.js"></script>
+	</head>
+
+	<body class="global__body">
+		<header class="global__header">
+			<h1 class="global__header-title">Учебник по HTML5</h1>
+		</header>
+
+		<nav class="global__nav">
+			<h3 class="global__nav-title">
+				Навигация по сайту:
+			</h3>
+
+			<ul class="global__nav-list">
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.1.html">Главная страница</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.2.html">Введение</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.3.html">Основные теги</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.4.html">Форматирование текста</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.5.html">Выравнивание</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.6.html">Картинки</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.7.html">Аудио</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.8.html">Видео</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.9.html">Таблицы</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.10.html">Табличная вёрстка</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.11.html">Прочие ништяки</a>
+				</li>
+			</ul>
+		</nav>
+
+		<main class="global__main">
+			<h2 class="global__main-title">
+				Таблицы
+			</h2>
+
+			<p class="global__main-text">
+				Ну вот речь и дошла до того, что лежит в основе данного сайта - таблиц. Их видели все. И как
+				известно, они состоят из строк и столбцов, а на их пересечении образуются ячейчки. Таблицы могут
+				быть любого размера, от миниатюрных, до огромных.
+			</p>
+
+			<p class="global__main-text">
+				Для создания любых таблиц, нам потребуются три тега и пять атрибутов:
+			</p>
+
+			<table class="global__main-table">
+				<thead>
+					<tr>
+						<th>тег</th>
+						<th>описание</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td><code class="global__main-code">&lt;table&gt;...&lt;/table&gt;</code></td>
+						<td>Основа таблицы, в данные теги помещаются все остальные теги таблицы.</td>
+					</tr>
+
+					<tr>
+						<td><code class="global__main-code">&lt;tr&gt;...&lt;/tr&gt;</code></td>
+						<td>Теги стороки, в них вкладываются теги столбцов.</td>
+					</tr>
+
+					<tr>
+						<td><code class="global__main-code">&lt;td&gt;...&lt;/td&gt;</code></td>
+						<td>Теги столбца.</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table class="global__main-table">
+				<thead>
+					<tr>
+						<th>атрибут</th>
+						<th>описание</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td><code class="global__main-code">width="количество пикселей(px) или %"</code></td>
+						<td>Максимальная ширина строки(столбца)</td>
+					</tr>
+
+					<tr>
+						<td><code class="global__main-code">height="количество пикселей(px) или %"</code></td>
+						<td>Максимальная высота строки(столбца)</td>
+					</tr>
+
+					<tr>
+						<td><code class="global__main-code">rowspan="количество строк"</code></td>
+						<td>Растягивание строки(столбца) по высоте</td>
+					</tr>
+
+					<tr>
+						<td><code class="global__main-code">colspan="количество столбцов"</code></td>
+						<td>Растягивание строки(столбца) по ширине</td>
+					</tr>
+
+					<tr>
+						<td><code class="global__main-code">border="количество пикселей(px)"</code></td>
+						<td>Толщина рамки таблиц</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p class="global__main-text">
+				Теперь можно попробовать создать таблицу. Кстати, они могут включать в себя любые другие элементы,
+				например, текст, картинки, аудио и видео. Например:
+			</p>
+
+			<code class="global__main-code-block">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ru"&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;title&gt;Таблицы&lt;/title&gt;
+    &lt;/head&gt;
+
+    &lt;body&gt;
+        &lt;table&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;
+                        &lt;img src="../img/img-6-1.jpg" height="300px" title="сакура"&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;img src="../img/img-9-1.jpg" height="300px" title="море"&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;
+                        &lt;audio src="../audio/ZEDION - Radiance.mp3" controls="controls"&gt;&lt;/audio&gt;
+                    &lt;/td&gt;
+                    &lt;td&gt;
+                        &lt;video src="../video/video-8-1.mkv" heigth="270px" controls="controls" title="ARP"&gt;&lt;/video&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+			</code>
+
+			<div class="global__main-result"
+				 id="script-result-header-9-1">
+				<iframe class="global__main-result-frame"
+						src="examples/page-9-1.html"
+						id="script-result-9-1"
+						onload="resultFix('9-1')">
+				</iframe>
+			</div>
+
+			<p class="global__main-text">
+				Как видно из данного примера, внутрь таблицы можно вставить практически всё, кроме другой таблицы.
+				Текст, картинки, аудио, видео и прочее.
+			</p>
+
+			<p class="global__main-text">
+				Внурти таблицы также можно пользоваться выравниванием, а сама таблица может быть самых разных
+				размеров.
+			</p>
+
+			<a class="global__main-button-next" href="G.10.html">&gt;&gt; Следующая часть &gt;&gt;</a>
+		</main>
+
+		<footer class="global__footer">
+			<p>Special for Sych</p>
+
+			<p>Корляков С. ИС-21</p>
+
+			<p>2018</p>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,374 @@
+<!doctype HTML>
+<html lang="ru">
+	<head>
+		<title>
+			Учебник по HTML5
+		</title>
+
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/global.css">
+		<script src="js/result-fix.js"></script>
+	</head>
+
+	<body class="global__body">
+		<header class="global__header">
+			<h1 class="global__header-title">Учебник по HTML5</h1>
+		</header>
+
+		<nav class="global__nav">
+			<h3 class="global__nav-title">
+				Навигация по сайту:
+			</h3>
+
+			<ul class="global__nav-list">
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.1.html">Главная страница</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.2.html">Введение</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.3.html">Основные теги</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.4.html">Форматирование текста</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.5.html">Выравнивание</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.6.html">Картинки</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.7.html">Аудио</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.8.html">Видео</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.9.html">Таблицы</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.10.html">Табличная вёрстка</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.11.html">Прочие ништяки</a>
+				</li>
+			</ul>
+		</nav>
+
+		<main class="global__main">
+			<h2 class="global__main-title">
+				Основные теги
+			</h2>
+
+			<p class="global__main-text">
+				Текст - это основа основ. Поэтому стоит начать с него.
+				Думаю, все работали в MS Word (или в чём-то похожем) и хорошо знакомы с таким понятиям, как форматирование текста.
+				Разберёмся, как провернуть такое в HTML.
+			</p>
+
+			<table class="global__main-table">
+				<thead>
+					<tr>
+						<th>тег</th>
+						<th>отображение</th>
+						<th></th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td><code class="global__main-code">&lt;p&gt;Абцаз&lt;/p&gt;</code></td>
+						<td>Абцаз</td>
+					</tr>
+
+					<tr>
+						<td><code class="global__main-code">&lt;strong&gt;Жирный шрифт&lt;/strong&gt;</code></td>
+						<td><strong>Жирный шрифт</strong></td>
+					</tr>
+
+					<tr>
+						<td><code class="global__main-code">&lt;em&gt;Курсив&lt;/em&gt;</code></td>
+						<td><em>Курсив</em></td>
+					</tr>
+
+					<tr>
+						<td><code class="global__main-code">&lt;del&gt;Зачёркнутый&lt;/del&gt;</code></td>
+						<td><del>Зачёркнутый</del></td>
+					</tr>
+
+					<tr>
+						<td><code class="global__main-code">&lt;u&gt;Подчёркнутый&lt;/u&gt;</code></td>
+						<td><u>Подчёркнутый</u></td>
+					</tr>
+
+					<tr>
+						<td><code class="global__main-code">&lt;small&gt;Маленький шрифт&lt;/small&gt;</code></td>
+						<td><small>Маленький шрифт</small></td>
+					</tr>
+
+					<tr>
+						<td><code class="global__main-code">&lt;code&gt;Код&lt;/code&gt;</code></td>
+						<td><code>Код</code></td>
+					</tr>
+
+					<tr>
+						<td><code class="global__main-code">&lt;sup&gt;Верхний индекс&lt;/sup&gt;</code></td>
+						<td><sup>Верхний индекс</sup></td>
+					</tr>
+
+					<tr>
+						<td><code class="global__main-code">&lt;sub&gt;Нижний индекс&lt;/sub&gt;</code></td>
+						<td><sub>Нижний индекс</sub></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p class="global__main-text">
+				Довольно много тегов, не так-ли?
+				А ведь вариантов их использования становиться куда больше, если учесть возможность их вложения друг в друга.
+				Но это лишь форматирование собственно текста. Отдельно стоит рассмотреть заголовки.
+				"Из коробки" они бывают шести уровней, от первого (самого большого), до шестого (самого маленького).
+				Хотя с помощью CSS и управления размером текста, этих заголовков может быть сколько угодно.
+				А как это сделать мы рассмотрим потом.
+			</p>
+
+			<table class="global__main-table">
+				<thead>
+					<tr>
+						<th>тег</th>
+						<th>отображение</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td><code class="global__main-code">&lt;h1&gt;Заголовок первого уровня&lt;/h1&gt;</code></td>
+						<td><h1>Заголовок первого уровня</h1></td>
+					</tr>
+					<tr>
+						<td><code class="global__main-code">&lt;h2&gt;Заголовок второго уровня&lt;/h2&gt;</code></td>
+						<td><h2>Заголовок второго уровня</h2></td>
+					</tr>
+					<tr>
+						<td><code class="global__main-code">&lt;h3&gt;Заголовок третьего уровня&lt;/h3&gt;</code></td>
+						<td><h3>Заголовок третьего уровня</h3></td>
+					</tr>
+					<tr>
+						<td><code class="global__main-code">&lt;h4&gt;Заголовок четвёртого уровня&lt;/h4&gt;</code></td>
+						<td><h4>Заголовок четвёртого уровня</h4></td>
+					</tr>
+					<tr>
+						<td><code class="global__main-code">&lt;h5&gt;Заголовок пятого уровня&lt;/h5&gt;</code></td>
+						<td><h5>Заголовок пятого уровня</h5></td>
+					</tr>
+					<tr>
+						<td><code class="global__main-code">&lt;h6&gt;Заголовок шестого уровня&lt;/h6&gt;</code></td>
+						<td><h6>Заголовок шестого уровня</h6></td>
+					</tr>
+				</tbody>
+			</table>
+
+
+			<p class="global__main-text">
+				Но и это ещё не всё. Почему? Потому что мы ещё не рассмотрели выравнивание.
+				Каждый, кто работал в MS Word или в чём-то похожем, знает, что выравнивание бывает 4 видов и вызывается через панель инструментов.
+				А как провернуть подобное в HTML? С помощью тегов? Нет, на этот случай существуют специальные атрибуты.
+
+
+			<p class="global__main-text">
+				<strong>Атрибуты</strong> - это некоторые параметры для тегов, которые встраиваются в них и влияют на итоговое отображение элемнтов.
+				Они бывают общие (для всех или почти всех тегов) и специальные (только для тегов). Атрибуты выравнивания относятся к общим
+				и могут влиять на большинство элемнтов (текст, картинки, видео и прочее, это мы расмотрим позже). Итак, перейдём к делу:
+			</p>
+
+			<table class="global__main-table">
+				<thead>
+					<tr>
+						<th>тег</th>
+						<th>отображение</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td><code class="global__main-code">&lt;p align="left"&gt;По левому краю&lt;/p&gt;</code></td>
+						<td><p align="left">По левому краю</p></td>
+					</tr>
+					<tr>
+						<td><code class="global__main-code">&lt;p align="center"&gt;По центру&lt;/p&gt;</code></td>
+						<td><p align="center">По центру</p></td>
+					</tr>
+					<tr>
+						<td><code class="global__main-code">&lt;p align="right"&gt;По правому краю&lt;/p&gt;</code></td>
+						<td><p align="right">По правому краю</p></td>
+					</tr>
+					<tr>
+						<td><code class="global__main-code">&lt;p align="justify"&gt;По ширине страницы&lt;/p&gt;</code></td>
+						<td><p align="justify">По ширине страницы</p></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p class="global__main-text">
+				Как можно заметить, использовать атрибуты не сложнее, чем теги, ибо все они строятся по единому принципу:
+			</p>
+
+			<code class="global__main-code-block">
+&lt;тег атрибут1="значение атрибута 1"
+     атрибут2="значение атрибута 2"
+        ...
+     атрибутN="значение атрибута N"&gt;
+
+    контент
+&lt;/тег&gt;
+			</code>
+
+			<p class="global__main-text">Теперь разберёмся, как использовать данные теги в общем. Например, расмотрим следующий код:</p>
+
+			<code class="global__main-code-block">
+&lt;!doctype HTML&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;
+            Форматирование текста
+        &lt;/title&gt;
+    &lt;/head&gt;
+
+    &lt;body&gt;
+        &lt;h1 align="center"&gt;Пример форматирования текста&lt;/h1&gt;
+
+        &lt;h2&gt;Что такое HTML?&lt;/h2&gt;
+
+        &lt;p&gt;&lt;strong&gt;HTML&lt;/strong&gt; — стандартизированный язык разметки документов во Всемирной паутине.&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;HTML&lt;/strong&gt; - это не язык программирования, я язык гипертекстовой разметки.&lt;/p&gt;
+        &lt;p&gt;Код HTML5 состоит из &lt;strong&gt;&lt;em&gt;тегов&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+			</code>
+
+			<p class="global__main-text">
+				Здесь мы просто распологаем нужные теги между &lt;body&gt; и &lt;/body&gt;, а в между этими тегами пишем текст,
+				над которым нужно совершить то или иное действие.
+				В целом, ничего сложного, главное не запутаться в тегах и соблюдать порядок вложенности.
+			</p>
+
+			<p class="global__main-text">
+				В браузере он отобразиться вот так:
+			</p>
+
+			<div class="global__main-result">
+				<iframe class="global__main-result-frame"
+						src="examples/page-4-1.html"
+						id="script-result-4-1"
+						onload="resultFix('4-1')">
+				</iframe>
+			</div>
+
+			<p class="global__main-text">
+				Для лучшего понимания приведём ещё один пример. На этот раз приведём простую задачку из математики.
+			</p>
+
+			<code class="global__main-code-block">
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;
+            Решение
+        &lt;/title&gt;
+    &lt;/head&gt;
+
+    &lt;body&gt;
+        &lt;h2 align="center"&gt;Задача&lt;/h2&gt;
+
+        &lt;h3&gt;Решить квадратное уравнение:&lt;/h3&gt;
+
+        &lt;p&gt;x&lt;sup&gt;2&lt;/sup&gt;+3x-4 = 0&lt;/p&gt;
+
+        &lt;h3&gt;Решение:&lt;/h3&gt;
+
+        &lt;h4&gt;1) Запишем уравнение:&lt;/h4&gt;
+
+        &lt;p&gt;x&lt;sup&gt;2&lt;/sup&gt;+3x-4 = 0&lt;/p&gt;
+
+        &lt;h4&gt;2) Найдём дискриминант:&lt;/h4&gt;
+
+        &lt;p&gt;D = 3&lt;sup&gt;2&lt;/sup&gt;-4*1*(-4)&lt;/p&gt;
+        &lt;p&gt;D = 9+16&lt;/p&gt;
+        &lt;p&gt;D = 25&lt;/p&gt;
+
+        &lt;h4&gt;3) Найдём корни уравнения:&lt;/h4&gt;
+
+        &lt;p&gt;x&lt;sub&gt;1&lt;/sub&gt; = -3+√25/2*1&lt;/p&gt;
+        &lt;p&gt;x&lt;sub&gt;1&lt;/sub&gt; = -3+5/2*1&lt;/p&gt;
+        &lt;p&gt;x&lt;sub&gt;1&lt;/sub&gt; = 2/2&lt;/p&gt;
+        &lt;p&gt;x&lt;sub&gt;1&lt;/sub&gt; = 1&lt;/p&gt;
+        &lt;p&gt;x&lt;sub&gt;2&lt;/sub&gt; = -3-√25/2*1&lt;/p&gt;
+        &lt;p&gt;x&lt;sub&gt;2&lt;/sub&gt; = -3-5/2*1&lt;/p&gt;
+        &lt;p&gt;x&lt;sub&gt;2&lt;/sub&gt; = -8/2&lt;/p&gt;
+        &lt;p&gt;x&lt;sub&gt;2&lt;/sub&gt; = -4&lt;/p&gt;
+
+        &lt;h3&gt;Ответ:&lt;/h3&gt;
+
+        &lt;p&gt;x&lt;sub&gt;1&lt;/sub&gt; = 1&lt;/p&gt;
+        &lt;p&gt;x&lt;sub&gt;2&lt;/sub&gt; = -4&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+			</code>
+
+			<p class="global__main-text">В браузере это отобразиться вот так:</p>
+
+			<div class="global__main-result">
+				<iframe class="global__main-result-frame"
+						src="examples/page-4-2.html"
+						id="script-result-4-2"
+						onload="resultFix('4-2')">
+				</iframe>
+			</div>
+
+			<p class="global__main-text">
+				Как можно заметить, в данном примере мы активно используем теги &lt;p&gt;, &lt;sub&gt; и &lt;sub&gt;.
+				Первым мы создаём строки текста, а вторым и третиьм - подстрочные и надстрочные знаки соответственно.
+				Пока что мы не будем рассматривать изменения цвета, типа или размера шрифта, это мы рассмотим позже.
+				А пока что рекомендуем попрактиковаться и создать Web-страницу со следующим текстом:
+			</p>
+
+			<p class="global__main-text">В браузере это отобразиться вот так:</p>
+
+			<div class="global__main-result">
+				<iframe class="global__main-result-frame"
+						src="examples/page-4-3.html"
+						id="script-result-4-3"
+						onload="resultFix('4-3')">
+				</iframe>
+			</div>
+
+			<p class="global__main-text">
+				А после выполнения задания, рекомендуем перейти к следующей теме.
+			</p>
+
+			<a class="global__main-button-next" href="G.5.html">&gt;&gt; Следующая часть &gt;&gt;</a>
+
+			<br><br>
+		</main>
+
+		<footer class="global__footer">
+			<p>Special for Sych</p>
+
+			<p>Корляков С. ИС-21</p>
+
+			<p>2018</p>
+		</footer>
+	</body>
+	
+</html>

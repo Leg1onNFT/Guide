@@ -1,0 +1,156 @@
+<!doctype HTML>
+<html lang="ru">
+	<head>
+		<title>
+			Учебник по HTML5
+		</title>
+		<meta charset="utf-8">
+		<meta name="robots" content="index, follow">
+		<link rel="stylesheet" type="text/css" href="css/global.css">
+		<script src="js/result-fix.js"></script>
+	</head>
+
+	<body class="global__body">
+		<header class="global__header">
+			<h1 class="global__header-title">Учебник по HTML5</h1>
+		</header>
+
+		<nav class="global__nav">
+			<h3 class="global__nav-title">
+				Навигация по сайту:
+			</h3>
+
+			<ul class="global__nav-list">
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.1.html">Главная страница</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.2.html">Введение</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.3.html">Основные теги</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.4.html">Форматирование текста</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.5.html">Выравнивание</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.6.html">Картинки</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.7.html">Аудио</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.8.html">Видео</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.9.html">Таблицы</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.10.html">Табличная вёрстка</a>
+				</li>
+
+				<li class="global__nav-list-item">
+					<a class="global__nav-list-item-link" href="G.11.html">Прочие ништяки</a>
+				</li>
+			</ul>
+		</nav>
+
+		<main class="global__main">
+			<h2 class="global__main-title">
+				Аудио
+			</h2>
+
+			<p class="global__main-text">
+				Итак, мы уже умеем писать и редактировать текст, вставлять и распологать картинки, но это ещё не далеко
+				не всё. Сейчас мы научимся тому, как распологать на вашей Web-странице аудиофайлы.
+			</p>
+
+			<p class="global__main-text">
+				А поможет нам с этим тег &lt;audio&gt; и некоторые атрибуты к нему:
+			</p>
+
+			<table class="global__main-table">
+				<thead>
+					<tr>
+						<th>атрибут</th>
+						<th>описание</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td><code class="global__main-code">src="путь"</code></td>
+						<td>Указание расположения аудиофайла</td>
+					</tr>
+
+					<tr>
+						<td><code class="global__main-code">controls="controls"</code></td>
+						<td>Включает кнопки управления</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p class="global__main-text">Данные атрибуты являются обязательными. Итак, рассмотрим пример:</p>
+
+			<code class="global__main-code-block">
+&lt;!doctype HTML&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;
+            Название вкладки
+        &lt;/title&gt;
+    &lt;/head&gt;
+
+    &lt;body&gt;
+        &lt;audio src="audio/ZEDION - Radiance.mp3" controls="controls"&gt;&lt;/audio&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+			</code>
+
+			<div class="global__main-result"
+				 id="script-result-header-7-1">
+				<iframe class="global__main-result-frame"
+						src="examples/page-7-1.html"
+						id="script-result-7-1"
+						onload="resultFix('7-1')">
+				</iframe>
+			</div>
+
+			<p class="global__main-text">
+				В общем, использование этого тега сильно похоже на использование тега &lt;img&gt;.
+			</p>
+
+			<p class="global__main-text">
+				Также как и с картинками, все атрибуты вставляются в один тег.
+			</p>
+
+			<p class="global__main-text">
+				<strong>Важно:</strong>
+				аудиофайл должен быть в том же каталоге, что код страницы. Можно использовать подкаталоги, он он
+				также должен распологаться в том же каталоге.
+			</p>
+
+			<a class="global__main-button-next" href="G.8.html">&gt;&gt; Следующая часть &gt;&gt;</a>
+		</main>
+
+		<footer class="global__footer">
+			<p>Special for Sych</p>
+
+			<p>Корляков С. ИС-21</p>
+
+			<p>2018</p>
+		</footer>
+	</body>
+</html>
